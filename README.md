@@ -2,7 +2,7 @@
 Stopwatch is a simple web application that allows you to track time in hours, minutes, seconds, and milliseconds. This project was built using HTML, CSS, and JavaScript.
 
 ## Getting Started
-To get started with the application, simply download or clone the repository and open the index.html file in your web browser.
+To get started with the application, simply download or clone the repository and open the `index.html` file in your web browser.
 
 ## How to Use
 - Click on the "Start" button to start the stopwatch.
