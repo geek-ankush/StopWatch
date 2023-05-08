@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script src="./src/index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Heading Container -->
+    <header>
+      <h1>StopWatch</h1>
+    </header>
+    <main>
+      <!-- Container to Display StopWatch -->
+      <div class="stopwatch-container">
+        <div class="hour-container">
+          <span class="digit" id="hr">00</span>
+          <span class="text">Hr</span>
+        </div>
+        <div class="min-container">
+          <span class="digit" id="min">00</span>
+          <span class="text">Min</span>
+        </div>
+        <div class="sec-container">
+          <span class="digit" id="sec">00</span>
+          <span class="text">Sec</span>
+        </div>
+        <div class="count-container">
+          <span class="digit" id="count">00</span>
+        </div>
+      </div>
+
+      <!-- Container to store StopWatch events -->
+      <div class="stopwatch-btn">
+        <button class="btn" id="btn-start">Start</button>
+        <button class="btn" id="btn-stop">Stop</button>
+        <button class="btn" id="btn-reset">Reset</button>
+      </div>
+    </main>
+  </body>
+</html>
